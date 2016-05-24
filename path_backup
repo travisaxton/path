@@ -1,0 +1,4 @@
+#!/bin/sh
+# this program prints out a human-readable $PATH variable
+
+echo $PATH | tr : '\n'
